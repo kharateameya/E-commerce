@@ -63,6 +63,9 @@ const PaymentMethodScreen = () => {
           </div>
         </Form>
       </div>
+        <div style={{color: "red"}} className="text-center">
+          <p>Please Use Paypal currently we cann't accept stripe</p>
+          </div>
     </div>
   );
 };
